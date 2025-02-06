@@ -1,3 +1,71 @@
-body {
-  font-family: Verdana, sans-serif;
-}
+   body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #e0e0e0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #003366;
+            margin-top: 50px;
+            font-size: 24px;
+        }
+
+        .login-container {
+            width: 350px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border: 2px solid #003366;
+            border-radius: 5px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+        }
+
+        label {
+            font-size: 14px;
+            display: block;
+            margin-bottom: 10px;
+            color: #003366;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 25px);
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #003366;
+            border-radius: 5px;
+            font-size: 14px;
+            background-color: #f0f0f0;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(to bottom, #0066cc, #000080);
+            color: white;
+            border: 1px solid #003366;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: linear-gradient(to bottom, #000081, #000080);
+        }
+
+        .announcement {
+            text-align: center;
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+        }
